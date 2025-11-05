@@ -34,5 +34,21 @@ A relation R is said to be in BCNF if it is already in 3NF and for every functio
 
 So to make above BCNF , we need to decomposition 
 
-![>](image-43.png)
+![alt text](image-43.png)
 
+In above original FD was not preserved(It's a separate topic if any FD is not preserved)  
+
+B was not dependent on key hence removed from original relation and kept in another relation with D
+
+* Question
+
+![alt text](image-44.png)
+
+3 candidate key from above
+
+![alt text](image-45.png)
+
+![alt text](image-46.png)
+
+Prime => {A,B,C,Y}
+Non-Prime => {D,E,X}
